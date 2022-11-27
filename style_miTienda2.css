@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 20px 20px 30px 20px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.mi-tienda {
+  padding: 50px 0px 0px 60px;
+  font-family: arial;
+  font-size: 2.5em;
+}
+
+.encabezado {
+  justify-content: space-around;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.encabezado__botones, .encabezado__iconos {
+  display: flex;
+}
+
+.encabezado__btn {
+  width: 90%;
+  height: 50px;
+  margin: 20px 10px 10px 20px;
+}
+
+/* botones Hombre/Mujer */
+.contenedor-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown__btn {
+  background-color: transparent;
+  border: none;
+  margin: -10px;
+  cursor: pointer;
+}
+
+.dropdown__btn:hover {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dropdown__opciones {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown__opciones {
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown__link {
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin-left: -25px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+/* ----ICONOS BUSCAR , RESGISTRO Y COMPRA */
+.material-symbols-outlined {
+  color: black;
+  position: absolute;
+}
+
+.encabezado__btn--posicion-buscar {
+  position: absolute;
+  top: 90px;
+  right: 330px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.material-symbols-outlined--posicion-lupa {
+  position: absolute;
+  top: 90px;
+  right: 500px;
+}
+
+/* ----------CONTENEDOR FOTOS----------- */
+.contenedor-fotos {
+  width: 80%;
+  margin-left: auto;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 350px;
+  margin-top: 0px;
+}
+
+.image {
+  width: 280px;
+  height: 230px;
+}
+
+.pie-foto {
+  margin: 0px;
+}
+.pie-foto__descripcion {
+  text-align: center;
+  margin: 0px;
+}
+
+.pie-foto__precio {
+  text-align: center;
+  margin: 3px;
+}
+
+.linea-solida {
+  border-top: 3px solid rgb(226, 219, 219);
+}
+
+/* --------<SECTION> SUSCRÍBETE------ */
+.section-suscripcion {
+  text-align: center;
+}
+.section-suscripcion__descuento {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+}
+.section-suscripcion__form {
+  margin-top: 0px;
+}
+.section-suscripcion__newsletter {
+  font-family: sans-serif;
+  font-size: 1.6em;
+}
+.section-suscripcion__input {
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-bottom: solid gray;
+}
+
+/* -----<SECTION> CONTACTO ------------- */
+.section {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.section__links {
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px;
+  margin: 0px;
+}
+.section__links--telefono {
+  color: rgb(129, 186, 166);
+  padding-left: 0px;
+}
+.section__links--telefono, .section__links--venta {
+  border-right: solid black;
+}
+
+.material-symbols-outlined--tel {
+  position: absolute;
+  right: 1155px;
+  top: 1650px;
+  margin: 0px;
+}
+
+/* ------<FOOTER> ---------------SECCION SERVICIOS*/
+.seccion-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios-cabecera {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.servicios-cabecera__listado {
+  text-decoration: none;
+  color: black;
+  margin: 10px 0 0 0px;
+  font-weight: normal;
+}
+.servicios-cabecera__listado--margin {
+  margin-top: 30px;
+}
+.servicios-cabecera__listado--texto {
+  margin-left: 30px;
+}
+
+.pagos {
+  width: 25px;
+  position: absolute;
+  left: 1295px;
+}
+.pagos--visa {
+  top: 1830px;
+}
+.pagos--mc {
+  top: 1855px;
+}
+.pagos--pay {
+  top: 1890px;
+  width: 30px;
+}
+
+.social {
+  width: 20px;
+  position: absolute;
+  left: 1170px;
+}
+.social--fb {
+  top: 1830px;
+}
+.social--insta {
+  top: 1855px;
+}
+.social--twit {
+  top: 1882px;
+}/*# sourceMappingURL=style_miTienda2.css.map */

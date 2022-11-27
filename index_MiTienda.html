@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style_miTienda2.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+
+  <body>
+
+   
+    <!-------------- ENCABEZADO -------->
+  <div class="encabezado">
+    <div class="contenedor-dropdown">
+      <nav class="dropdown">
+        <button type="button" class="dropdown__btn">Hombre</button>
+        <div class="dropdown__opciones">
+          
+          <a href="#" class="dropdown__link">Pantalones</a></li>
+          <a href="#" class="dropdown__link">Camisas</a>
+          <a href="#" class="dropdown__link">Abrigos</a>
+        
+        </div> 
+      </nav>
+      
+      <nav class="dropdown">
+        <button class="dropdown__btn">Mujer</button>
+        <div class="dropdown__opciones">
+          <a href="#" class="dropdown__link">Vestidos</a>
+          <a href="#" class="dropdown__link">Bolsos</a>
+          <a href="#" class="dropdown__link">Sandalias</a>
+        </div>
+      </nav>
+    </div>
+    <h2 class="mi-tienda">Mi_Tienda</h2>
+    <ul class="encabezado__botones">
+      <li class="encabezado__btn">
+        <input type="search" placeholder="Buscar" class="encabezado__btn--posicion-buscar">
+          <span class="material-symbols-outlined material-symbols-outlined--posicion-lupa">
+        search</span></input type="" name="" value="">
+        </li>
+      <li class="encabezado__btn"><a href="#" class="material-symbols-outlined">
+        person
+      </a></li>
+      <li class="encabezado__btn"><a href="#" class="material-symbols-outlined">
+        shopping_bag
+      </a></li>
+    </ul>
+  </div>
+    <!-----------FIN ENCABEZADO -------------->
+ 
+
+    <!-----------COMIENZA <MAIN> CUADRICULA FOTOS --------------->
+    <main class="contenedor-fotos">
+      <div class="card">
+        <img class="image" src="assets/foto1.jpg" alt="foto moda">
+          <div class="pie-foto">
+            <p class="pie-foto__descripcion">Vestido azul</p>
+            <p class="pie-foto__precio">70€</p>
+          </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto2.jpg" alt="foto moda">
+        <div class="pie-foto">
+          <p class="pie-foto__descripcion">Camisa vaquera</p>
+          <p class="pie-foto__precio">29,90€</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto3.jpg" alt="foto moda">
+        <div class="pie-foto">
+          <p class="pie-foto__descripcion">Top y falda</p>
+          <p class="pie-foto__precio">49,99</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto4.jpg" alt="foto moda">
+        <div class="pie-foto">
+          <p class="pie-foto__descripcion">Shorts</p>
+          <p class="pie-foto__precio">65€</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto5.jpg" alt="foto moda">
+        <div class="pie-foto">
+        <p class="pie-foto__descripcion">Camisa manga ancha</p>
+        <p class="pie-foto__precio">19,90€</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto6.jpg" alt="foto moda">
+        <div class="pie-foto">
+        <p class="pie-foto__descripcion">Camiseta rosa</p>
+        <p class="pie-foto__precio">9,90€</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto7.jpg" alt="foto moda">
+        <div class="pie-foto">
+          <p class="pie-foto__descripcion">Top de rayas</p>
+          <p class="pie-foto__precio">5,99€</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="image" src="assets/foto8.jpg" alt="foto moda">
+        <div class="pie-foto">
+        <p class="pie-foto__descripcion">Vestido de punto</p>
+        <p class="pie-foto__precio">49,90€</p>
+        </div>
+      </div>
+      
+    </main>
+<!-----------------------TERMINA <MAIN>----------------->
+
+<!--------------<SECTION> SUSCRÍBETE ----------------->
+    <hr class="linea-solida">
+    <section class="section-suscripcion">
+      <p class="section-suscripcion__descuento">10% DE DESCUENTO...</p>
+      <form action="" class="section-suscripcion__form">
+        <label for="email" class="section-suscripcion__newsletter">¡SUSCRÍBETE A LA NEWSLETTER!*</label><br>
+        <input type="email" id="email" class="section-suscripcion__input" name="email" placeholder="Introduce tu email" required>
+      </form>
+    </section>
+
+    <hr class="linea-solida">
+
+<!-----------<SECTION> CONTACTO ------------>
+    <section class="section">
+      <p class="section__contacto">Contacto</p>
+      <li class="section__links">
+        <span class="material-symbols-outlined material-symbols-outlined--tel">call</span>
+        <a class="section__links section__links--telefono" href="#">900 555 555</a>
+        <a class="section__links section__links--venta" href="#">Venta online</a>
+        <a class="section__links section__links--tiendas" href="#">Tiendas y empresas</a>
+      </li>
+      <p class="horario">De lunes a viernes, de 9:00 a 22:00 horas</p>
+    </section>
+
+    <hr class="linea-solida">
+
+  <footer>
+    <section class="seccion-servicios">
+        <li class="servicios-cabecera"> Guía de compra
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin" href="">Preguntas frecuentes</a>
+          <a class="servicios-cabecera__listado" href="">Pago</a>
+          <a class="servicios-cabecera__listado" href="">Envíos</a>
+          <a class="servicios-cabecera__listado" href="">Devoluciones</a>
+          <a class="servicios-cabecera__listado" href="">Cambios</a>
+          <a class="servicios-cabecera__listado" href="">Ticket regalo</a>
+          <a class="servicios-cabecera__listado" href="">Disponibilidad de artículos</a>
+        </li>
+        <li class="servicios-cabecera">Servicios
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin" href="">Affinity Card</a>
+          <a class="servicios-cabecera__listado" href="">Tarjeta regalo</a>
+          <a class="servicios-cabecera__listado" href="">Arreglos</a>
+          <a class="servicios-cabecera__listado" href="">Cuidado de prendas</a>
+          <a class="servicios-cabecera__listado" href="">Cuidado de calzado</a>
+        </li>
+        <li class="servicios-cabecera">Empresas
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin" href="">Preguntas frecuentes</a>
+          <a class="servicios-cabecera__listado" href="">Quienes somos</a>
+          <a class="servicios-cabecera__listado" href="">Oficinas</a>
+          <a class="servicios-cabecera__listado" href="">Tiendas</a>
+          <a class="servicios-cabecera__listado" href="">Localizador de tiendas</a>
+          <a class="servicios-cabecera__listado" href="">Trabaja con nosotros</a>
+          <a class="servicios-cabecera__listado" href="">Franquicias</a>
+        </li>
+        <li class="servicios-cabecera">Políticas
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin" href="">Política medioambiental</a>
+          <a class="servicios-cabecera__listado" href="">Trato con los clientes</a>
+          <a class="servicios-cabecera__listado" href="">Política de privacidad</a>
+          <a class="servicios-cabecera__listado" href="">Condiciones de compra</a>
+          <a class="servicios-cabecera__listado" href="">Política de cookies</a>
+        </li>
+        <li class="servicios-cabecera">Social Media
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin servicios-cabecera__listado--texto" href="">Facebook</a>
+          <img src="assets/facebook.png" alt="logo facebook" class="social social--fb">
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--texto" href="">Instagram</a>
+          <img src="assets/isntagram.png" alt="" class="social social--insta">
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--texto" href="">Twiter</a>
+          <img src="assets/twit.png" alt="" class="social social--twit">
+        </li>
+        <li class="servicios-cabecera">Métodos de pago
+          <img src="assets/visa.png" alt="logo visa" class="pagos pagos--visa">
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--margin servicios-cabecera__listado--texto" href="">VISA</a>
+          <img src="assets/MasterCard_early_1990s_logo.png" alt="log MasterCard" class="pagos pagos--mc">
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--texto" href="">MasterCard</a>
+          <img src="assets/527px-PayPal_logo.svg.png" alt="logo PayPal" class="pagos pagos--pay">
+          <a class="servicios-cabecera__listado servicios-cabecera__listado--texto" href="">PayPal</a>
+          
+        </li>
+    
+   </section>
+  </footer>
+
+  </body>
+</html>
