@@ -1,0 +1,27 @@
+/* botones Hombre/Mujer */
+
+.contenedor-dropdown {
+    display:flex;
+    border: 1px solid red
+}
+.dropdown__btn {
+    background-color: transparent;
+    border: none;
+}
+.dropdown__opciones {
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown__opciones {
+    display: block;
+    font-weight: bold;
+}
+.dropdown__btn:hover {
+    font-size: 15px;
+    font-weight: bold;
+}
+.dropdown__link {
+    text-decoration: none;
+    display: block;
+    color: black;
+}

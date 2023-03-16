@@ -109,6 +109,10 @@
   width: 280px;
   height: 230px;
 }
+.image:hover {
+  transform: scale(1.1);
+  border: black solid 1px;
+}
 
 .pie-foto {
   margin: 0px;
@@ -174,7 +178,7 @@
 
 .material-symbols-outlined--tel {
   position: absolute;
-  right: 1155px;
+  right: 1180px;
   top: 1650px;
   margin: 0px;
 }
