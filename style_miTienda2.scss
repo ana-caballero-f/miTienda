@@ -79,6 +79,11 @@
 .material-symbols-outlined {
     color: black;
     position: absolute;
+
+        &:hover {
+            color: white;
+            background-color: black;
+        }
 }
 
 .encabezado__btn--posicion-buscar {

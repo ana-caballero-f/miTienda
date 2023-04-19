@@ -72,6 +72,10 @@
   color: black;
   position: absolute;
 }
+.material-symbols-outlined:hover {
+  color: white;
+  background-color: black;
+}
 
 .encabezado__btn--posicion-buscar {
   position: absolute;
